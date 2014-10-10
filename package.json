@@ -1,0 +1,16 @@
+{
+  "name": "statestyle-js",
+  "version": "1.0.0",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/duner/statestyle-js"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-contrib-concat": "^0.4.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-uglify": "^0.4.0",
+    "load-grunt-tasks": "^0.6.0",
+    "time-grunt": "^0.4.0"
+  }
+}

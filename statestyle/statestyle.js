@@ -33,21 +33,13 @@ var statestyle = { };
 		if (typeof value === 'string') { value = transformString(value); }
 
 		dicts = [Statestyle.statesByName, Statestyle.statesByPostal, Statestyle.statesByAP];
-
 		for (i = 0; i < dicts.length; i++) {
 			if (dicts[i][value]) { return dicts[i][value]; }
 		}
 
-		// console.log("The state you requested does not exist.");
+		console.log("The state you requested does not exist.");
 	};
 
 }(statestyle));
-
-console.log(statestyle.get('01'));
-console.log(statestyle.get('Guam'));
-console.log(statestyle.get('Calif.'));
-console.log(statestyle.get('WV'));
-console.log(statestyle.get('California'));
-
 
 
