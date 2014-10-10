@@ -5,8 +5,6 @@ StatestyleJS is a Javascript port of [latimes-statestyle](https://github.com/dat
 
 Submit a state’s name, postal code or Associated Press abbreviation or FIPS code and receive a clean object with all other formats as attributes. State objects also provide the “stateface” code for ProPublica’s [webfont of state shapes](http://propublica.github.io/stateface/).
 
-Using `statestyle.get()`
-
 ###Usage
 
 Just pass a state's name, postal code, or even Associated Press abbreviation into `statestyle.get()`:
